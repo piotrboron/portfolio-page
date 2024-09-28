@@ -5,8 +5,10 @@ export default function Hero() {
     <div className="hero-container">
       <div className="hero-content">
         <h1>Hey, I'm an aspiring full stack developer</h1>
-        <p>Let's make something great together!</p>
-        <button className="cta-button">Contact me</button>
+        <p class="animText">Let's make something great together!</p>
+        <button className="cta-button" href="#contact-me">
+          contact@rosesandsins.pl
+        </button>
       </div>
       {[...Array(20)].map((_, index) => (
         <div key={index} className="falling-block"></div>
@@ -47,7 +49,7 @@ export default function Hero() {
           animation: fadeInUp 2s ease-in-out forwards;
         }
 
-        p {
+        .animText {
           font-size: 1.2rem;
           margin-bottom: 2rem;
           opacity: 0;
@@ -55,6 +57,9 @@ export default function Hero() {
         }
 
         .cta-button {
+          font-family: "Geist", sans-serif;
+          font-size: 0.8rem;
+          color: white;
           margin-top: 25px;
           border: 0px;
           border-radius: 15px;
@@ -97,7 +102,7 @@ export default function Hero() {
           )
           .join("")}
 
-        @media (max-width: 768px) {
+        @media (max-width: 900px) {
           h1 {
             font-size: 2rem;
           }
@@ -107,7 +112,7 @@ export default function Hero() {
           }
 
           .cta-button {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
           }
         }
       `}</style>

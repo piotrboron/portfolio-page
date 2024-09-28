@@ -34,58 +34,6 @@ export default function Experience() {
     "SEO",
     "Woocommerce",
   ];
-  const experienceItems = [
-    {
-      id: 1,
-      title: "Fiverr",
-      description:
-        "Developed responsive web applications using React and TypeScript. Improved site performance by 30% through optimization techniques.",
-      date: "2020-2024",
-      modal: "Fiverr",
-    },
-    {
-      id: 2,
-      title: "A book about cryptocurrencies",
-      description: "techniques.",
-      date: "Mid 2023",
-      modal: "Book",
-    },
-    {
-      id: 3,
-      title: "Mythoria MMORPG",
-      description: "techniques.",
-      date: "Late 2023",
-      modal: "Mythoria",
-    },
-    {
-      id: 4,
-      title: "Smoczedrzewo.pl",
-      description: "techniques.",
-      date: "Late 2023",
-      modal: "Smoczedrzewo",
-    },
-    {
-      id: 5,
-      title: "RoseAlgo",
-      description: "techniques.",
-      date: "Early 2024",
-      modal: "Rosealgo",
-    },
-    {
-      id: 6,
-      title: "CryptoStakingScripts",
-      description: "techniques.",
-      date: "2024",
-      modal: "Cryptostakingscripts",
-    },
-    {
-      id: 7,
-      title: "Minecraft plugin pack development",
-      description: "techniques.",
-      date: "2020-2024",
-      modal: "Minecraft",
-    },
-  ];
   const cryptostakingscriptsTechnologies = [
     "Wordpress",
     "JS",
@@ -102,41 +50,42 @@ export default function Experience() {
         <SingleProject
           image={pr2}
           projecttitle="Mythoria MMORPG"
-          projectdescription="Mythoria is an MMORPG based on solid foundations like Tibia, theforgottenserver and OTClientv8, combining much-loved classic concepts into a modern setting and solutions. For me personally, it is also a kind of childhood dream come true."
+          projectdescription="Mythoria is an MMORPG game based on solid foundations like Tibia, theforgottenserver and OTClientv8, combining classic concepts from 2007 into a modern setting and solutions."
           technologies={mythoriaTechnologies}
           projectlink="https://github.com/piotrboron/mythoria"
         ></SingleProject>
         <SingleProject
           image={pr1}
           projecttitle="Fiverr"
-          projectdescription="This is a brief description of the awesome project. It showcases my
-            skills in design and development."
+          projectdescription="For four years I have been freelancing on Fiverr for cryptocurrency projects, consulting and configuring cryptocurrency mining farms to maximize their efficiency."
           technologies={fiverrTechnologies}
           projectlink="https://github.com/piotrboron/freelancing-activity/tree/main"
         ></SingleProject>
         <SingleProject
           image={pr4}
           projecttitle="A book about cryptocurrencies"
-          projectdescription="XDD"
+          projectdescription="In 2023, I wrote a guide in the form of a book on the topic of creating cryptocurrency tokens, meme-coins and the general topic of how the cryptocurrency system works."
           technologies={booktechnologies}
+          projectlink="https://www.amazon.pl/Your-own-token-cryptocurrencies-visionaries/dp/8396907021/ref=sr_1_2?__mk_pl_PL=ÅMÅŽÕÑ&crid=3EB1DFJYKN40N&dib=eyJ2IjoiMSJ9.pSyDPB8Ot3QxqGZmQXlMsfYokAbKMFg9bGGSsdr7PrtW7WuRbAXBzr_GiY3k-0m3bkD4OSBAV63vd2hcYq2Dv7FYxqDPE1uRg_a9bIpkKCxSCexVvi-bdWJJrW_2JmE2YntC6x86TaDaaZDUfLbJhO54gjagpSBtAizZ8RH9-KDoaDNoj-mh6nvriCLW3Nq9NdKCh-L8HweLkhlMUMxM4E8dMfR_sy1NeH6kqPCj65c.TRVBMDtAxhG391bhpiN4yr8LSx1cD9xYLnaL7nodAMI&dib_tag=se&keywords=piotr+boroń&qid=1727464338&sprefix=piotr+boro%2Caps%2C136&sr=8-2"
         ></SingleProject>
         <SingleProject
           image={pr5}
           projecttitle="Trading Indicators"
-          projectdescription="In 2023 I ran an online store that allowed me to monetize my interest in the topic of crypto and trading indicators. You can find proprietary trading indicators, my original book on creating cryptocurrencies and free bases for creating trading bots for Spotware cTrader."
+          projectdescription="Year ago I ran an online store that allowed me to monetize my interest in the topic of crypto and trading. Trading indicators, strategies, my original book on creating cryptocurrencies."
           technologies={rosealgotechnologies}
           projectlink="https://github.com/piotrboron/tradingindicators"
         ></SingleProject>
         <SingleProject
           image={pr6}
           projecttitle="ImgResizer"
-          projectdescription="I needed a service that optimizes images in bulk, due to the slow performance and the limits of the competition, I decided to write such a service myself as a consolidation of knowledge from the course."
+          projectdescription="I needed a service that optimizes images in bulk, due to the slow performance and the limits of the competition, I decided to write it myself as a consolidation of knowledge from the course."
           technologies={imgresizertechnologies}
+          projectlink="https://github.com/piotrboron/imgresizer"
         ></SingleProject>
         <SingleProject
           image={pr3}
           projecttitle="CryptoStakingScripts"
-          projectdescription="CryptoStakingScripts is a store that allows you to earn money by staking cryptocurrencies. You can find here staking pools for various cryptocurrencies, as well as my own staking pool for the RoseAlgo cryptocurrency."
+          projectdescription="This is the site where I share the ready-made packages I once created to host my staking farms. Some pieces of this code are still used today on various platforms."
           technologies={cryptostakingscriptsTechnologies}
           projectlink="https://crypto-staking-scripts.com"
         ></SingleProject>

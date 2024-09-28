@@ -10,7 +10,7 @@ export default function SingleProject(props) {
           <h2 class="project-title">{props.projecttitle}</h2>
           <p class="project-description">{props.projectdescription}</p>
           <a href={props.projectlink}>
-            <button>Read more</button>
+            <button className="read-more-btn">Read more</button>
           </a>
           <div class="project-tags">
             {props.technologies.map((tech, index) => (

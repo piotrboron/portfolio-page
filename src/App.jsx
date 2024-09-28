@@ -7,6 +7,10 @@ import WordCloud from "./components/WordCloud";
 import Experience from "./components/Experience";
 import MinorSkills from "./components/MinorSkills";
 import OtherSkills from "./components/OtherSkills";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faFreeCodeCamp, faGithub } from "@fortawesome/free-brands-svg-icons";
+library.add(faFreeCodeCamp, faGithub);
+import Mycertifications from "./components/Mycertifications";
 
 function App() {
   return (
@@ -18,6 +22,7 @@ function App() {
       <MinorSkills></MinorSkills>
       <OtherSkills></OtherSkills>
       <Experience></Experience>
+      <Mycertifications></Mycertifications>
     </>
   );
 }
