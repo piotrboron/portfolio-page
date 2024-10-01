@@ -50,7 +50,7 @@ export default function Experience() {
         <SingleProject
           image={pr2}
           projecttitle="Mythoria MMORPG"
-          projectdescription="Mythoria is an MMORPG game based on solid foundations like Tibia, theforgottenserver and OTClientv8, combining classic concepts from 2007 into a modern setting and solutions."
+          projectdescription="Mythoria is an MMORPG game based on solid foundations like Tibia, theforgottenserver and OTClientv8, combining classic concepts from 2007 with modern setting and solutions."
           technologies={mythoriaTechnologies}
           projectlink="https://github.com/piotrboron/mythoria"
         ></SingleProject>

@@ -57,30 +57,29 @@ export default function OtherSkills() {
     {
       id: 10,
       name: "cTrader/MetaTrader",
-      description:
-        "I have the skills to fluently use the trading software mentioned above.",
+      description: "I have mastered the trading software mentioned above.",
     },
     {
       id: 11,
       name: "Wordpress, Woocommerce",
       description:
-        "Ability to create blogs and online stores with the help of Wordpress as well as understanding it.",
+        "My good command of Wordpress helps me to create blogs and set up online stores.",
     },
     {
       id: 12,
       name: "theforgottenserver, zNoteAAC, RME",
-      description: "I have skills in game development based on Open Tibia.",
+      description: "I am skilled in game development based on Open Tibia.",
     },
     {
       id: 13,
       name: "Apache/nginx",
-      description: "Basic knowledge in the use of Apache and nginx servers.",
+      description: "Basic knowledge of Apache and nginx servers.",
     },
     {
       id: 14,
       name: "APIs",
       description:
-        "Basic knowledge in using external APIs as well as creating my own.",
+        "Basic experience in using external APIs as well as creating my own.",
     },
     {
       id: 15,
@@ -90,7 +89,7 @@ export default function OtherSkills() {
     {
       id: 16,
       name: "EJS",
-      description: "Basic knowledge of using EJS in Node.js projects.",
+      description: "Basic experience in implementing EJS in Node.js projects.",
     },
   ];
   return (
