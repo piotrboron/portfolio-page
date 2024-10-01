@@ -29,7 +29,7 @@ export default function OtherSkills() {
       id: 5,
       name: "AI Tools",
       description:
-        "On a daily basis, I use AI to speed up my work, graphic work and clarify some topics.",
+        "I use AI every day to speed up my work, clarify some topics and for graphic design.",
     },
     {
       id: 6,
@@ -41,7 +41,7 @@ export default function OtherSkills() {
       id: 7,
       name: "Shell usage",
       description:
-        "I use the terminal on a daily basis, it is not scary to me and sometimes even more convenient than the GUI.",
+        "I use the terminal on a daily basis, it doesn't scare me and sometimes I find it more convenient than the GUI.",
     },
     {
       id: 8,

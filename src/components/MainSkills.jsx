@@ -7,7 +7,7 @@ export default function MainSkills() {
       name: "End-to-End Project Development",
       icon: "faicon fa fa-lightbulb-o",
       description:
-        "Able to take an idea from concept to deployment, carefully managing each step to ensure a it's a well-rounded final product.",
+        "Able to take an idea from concept to deployment, carefully managing each step to ensure a well-rounded final product.",
     },
     {
       id: 2,

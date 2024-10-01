@@ -47,7 +47,12 @@ const WordCloud = () => {
   }, []); // Empty dependency array ensures this runs only once on mount
 
   return (
-    <div className="main">
+    <div
+      style={{
+        placeContent: "center",
+      }}
+      className="main"
+    >
       <h2 class="gradiently">Languages and frameworks I have dealt with</h2>
       <span className="content"></span>
     </div>

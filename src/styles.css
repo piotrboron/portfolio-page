@@ -209,9 +209,8 @@ nav ul li a {
 .tagcloud {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  margin: auto;
-  width: 50%;
   color: #e94560;
+  overflow: hidden;
 }
 
 .tagcloud--item:hover {
@@ -472,6 +471,11 @@ nav ul li a {
 /* mobile */
 
 @media screen and (max-width: 900px) {
+  .tagcloud {
+    margin: auto;
+    max-width: 80%;
+    font-size: 16px;
+  }
   .desktopnav {
     display: none;
   }
